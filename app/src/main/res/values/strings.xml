@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username_case_sensitive">Username (case-sensitive)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_now">Register Now</string>
+    <string name="or">OR</string>
+    <string name="forgot_credentials">Forgot Credentials?</string>
+    <string name="did_you_forget_your_login_id_or_password">Did you forget your Login ID \nor Password ?</string>
+    <string name="forgot_credentials_">Forgot Credentials</string>
+    <string name="select_registration_resource">Select Registration Resource</string>
+
+    <string name="account">Account</string>
+    <string name="registration">Registration</string>
+    <string name="account_holder">Account Holder</string>
+
+    <string-array name="sdgth">
+        <item>rtht</item>
+        <item>rtht</item>
+        <item>rtht</item>
+        <item>rtht</item>
+        <item>rtht</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="account_number">Account Number</string>
+    <string name="dob">DOB</string>
+    <string name="debit_card">Debit Card</string>
+
+    <string name="wallet_number">Wallet Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="next">Next</string>
+    <string name="carrier">Carrier</string>
+    <string name="cnic">CNIC</string>
+    <string name="orbit_id">Orbit ID</string>
+</resources>

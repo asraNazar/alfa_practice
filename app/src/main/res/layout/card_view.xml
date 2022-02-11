@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/buttons_recycler_view"
+    android:orientation="horizontal"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_2sdp"
+   >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="@dimen/_30sdp"
+        app:cardBackgroundColor="@color/red"
+        app:cardElevation="@dimen/_4sdp"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/imageViewI"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_baseline_person_outline_24"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_2sdp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewA"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:padding="@dimen/_5sdp"
+
+        android:text="@string/account_holder"
+        android:textSize="@dimen/_10ssp" />
+
+
+</RelativeLayout>

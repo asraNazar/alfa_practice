@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_two">
+
+
+
+
+<!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="Credit Card"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+        <EditText
+            android:id="@+id/cb_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_xml"
+            android:drawableTint="@color/grey"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+
+
+
+
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/cb_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_xml"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:padding="@dimen/_10sdp"
+
+            android:layout_marginTop="@dimen/_10sdp"
+
+
+
+
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/cb_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/textview_xml"
+            android:layout_marginTop="@dimen/_10sdp"
+
+
+
+
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/cb_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_xml"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+
+
+
+
+            >
+        </EditText>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/cnic_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cnic"
+        android:drawableTint="@color/grey"
+        android:background="@drawable/textview_xml"
+        android:digits="0123456789-"
+        android:inputType="number"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:drawableStart="@drawable/ic_baseline_credit_card_24"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/calender_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dob"
+        android:drawableTint="@color/grey"
+        android:background="@drawable/textview_xml"
+        android:drawableStart="@drawable/ic_baseline_cake_24"
+        android:drawableEnd="@drawable/ic_baseline_credit_card_24"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:padding="@dimen/_10sdp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_Carrier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carrier"
+        android:drawableTint="@color/red"
+        android:focusable="false"
+        android:drawableStart="@drawable/ic_baseline_account_balance_wallet_24"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:background="@drawable/textview_xml"
+        android:drawablePadding="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:drawableStart="@drawable/ic_baseline_mobile_friendly_24"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/textview_xml"
+        android:padding="@dimen/_10sdp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="@dimen/_51sdp"
+        android:background="@drawable/button"
+        >
+
+    </Button>
+</LinearLayout>
+</FrameLayout>
